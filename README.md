@@ -62,7 +62,10 @@ python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --output "Ass
 ## Notes
 
 - The script reads test data from the Excel file and writes `Actual output` and `Status` back into the workbook.
+<<<<<<< HEAD
 - The script also auto-fills `Singlish input types covered` and `Evidence or rationale for the input type covered` based on the input text.
+=======
+>>>>>>> 02337f41a16854fa5e985226297f7124f7455f2f
 - If `Expected output` is empty, the script marks the row as `COLLECTED`.
 - If `Expected output` has a value, the script marks the row as `PASS` or `FAIL`.
 - The default target site is `https://www.pixelssuite.com/chat-translator`.
